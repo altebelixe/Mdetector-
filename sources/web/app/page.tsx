@@ -72,7 +72,7 @@ export default function Home() {
           <div className="text-center">
             <h1 className="text-4xl sm:text-8xl uppercase font-black text-gray-800 dark:text-neutral-200">
               <span className="text-red-500">MDetector</span> pour une
-              navigation web plus sécurisée
+              navigation web plus sécurisée ,faina
             </h1>
 
             <p className="my-3 text-gray-600 dark:text-neutral-400 mb-7">
