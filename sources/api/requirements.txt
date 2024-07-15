@@ -1,0 +1,15 @@
+python-whois
+flask
+flask_cors
+flask_crontab
+scikit-learn
+pandas
+nltk
+numpy
+schedule
+requests
+bs4
+azure-storage-blob
+pymongo
+python-dotenv
+xgboost

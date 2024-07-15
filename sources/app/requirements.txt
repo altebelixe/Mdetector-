@@ -1,0 +1,8 @@
+nltk
+mlflow
+pandas
+pymongo
+xgboost
+scikit-learn
+python-dotenv
+azure-storage-blob
