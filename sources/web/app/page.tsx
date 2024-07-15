@@ -45,7 +45,7 @@ export default function Home() {
 
   const handlePredict = async () => {
     const response = await fetch(
-      "https://mdetector-api.arnidb.easypanel.host/api/predict",
+      "https://mdetector-api.jusyst.easypanel.host/api/predict",
       {
         method: "POST",
         headers: {

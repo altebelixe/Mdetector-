@@ -15,7 +15,7 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
 
 async function sendUrlToServer(url, tabId) {
     try {
-        let response = await fetch('https://mdetector-api.arnidb.easypanel.host/api/predict', {
+        let response = await fetch('https://mdetector-api.jusyst.easypanel.host/api/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
