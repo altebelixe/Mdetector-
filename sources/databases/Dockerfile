@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src .
 
 # Copie les fichiers de données dans le répertoire de travail
-COPY data .
+COPY data /app/data
 
 # Définit la commande par défaut à exécuter lors du démarrage du conteneur
 CMD ["python3", "main.py"]

@@ -30,6 +30,9 @@ df_train = pandas.read_parquet('data/train.parquet')
 logging.info('Chargement des données de test')
 df_test = pandas.read_parquet('data/test.parquet')
 
+df_train = df_train.head(250000)
+df_test = df_test.head(10000)
+
 # Suppression des colonnes inutiles
 logging.info('Suppression des colonnes inutiles')
 df_train.drop(columns=['Unnamed: 0'], inplace=True)
